@@ -115,7 +115,7 @@ function showFinalStage() {
     document.getElementById("story").innerText = "가온이가 코딩의 마스터가 됐어! 이제 가온이는 대기업에서 캐스팅해갈거야!";
 
     // 버튼 이미지 변경
-    document.getElementById("gaonImage").src = "./main/happy.png"; // 성공 이미지
+    document.getElementById("gaonImage").src = "happy.jpg"; // 성공 이미지
     document.getElementById("resetButton").style.display = "block"; // 초기화 버튼 표시
     isGameEnded = true; // 게임 종료 상태로 설정
 }
