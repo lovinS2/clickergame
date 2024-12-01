@@ -84,7 +84,7 @@ function chooseFail() {
     
 
     // 버튼 이미지 변경
-    document.getElementById("gaonImage").src = "poop.webp"; // 실패 이미지
+    document.getElementById("gaonImage").src = "./main/poop.webp"; // 실패 이미지
     document.getElementById("story").innerText = "가온이가 프로젝트 도전을 포기했어...";
     document.getElementById("resetButton").style.display = "block";
     isGameEnded = true; // 게임 종료 상태로 설정
