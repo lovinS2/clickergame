@@ -4,7 +4,7 @@ let isDoubleClickActive = false;
 let isAutoClickActive = false;
 let isGameEnded = false; 
 const stages = ["노베이스", "입문", "초심자", "하수", "초보", "중수", "고수", "마스터"];
-const images = ["가온1.png", "py.webp", "js.png", "c.png", "ja.png", "Luby.png", "umm.png", "PHP.png"];
+const images = ["가온1.png", "/py.webp", "js.png", "c.png", "ja.png", "Luby.png", "/umm.png", "PHP.png"];
 const stories = [
     "가온이가 코딩을 배우기 시작했어!",
     "가온이가 변수와 자료형을 배웠어!",
