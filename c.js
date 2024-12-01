@@ -4,7 +4,7 @@ let isDoubleClickActive = false;
 let isAutoClickActive = false;
 let isGameEnded = false; 
 const stages = ["노베이스", "입문", "초심자", "하수", "초보", "중수", "고수", "마스터"];
-const images = ["가온1.png", "py.webp", "https://lovins2.github.io/clickergame/click.html/js.png", "c.png", "ja.png", "Luby.png", "https://lovins2.github.io/clickergame/click.html/umm.png", "PHP.png"];
+const images = ["가온1.png", "py.webp", "js.png", "c.png", "ja.png", "Luby.png", "umm.png", "PHP.png"];
 const stories = [
     "가온이가 코딩을 배우기 시작했어!",
     "가온이가 변수와 자료형을 배웠어!",
@@ -84,7 +84,7 @@ function chooseFail() {
     
 
     // 버튼 이미지 변경
-    document.getElementById("gaonImage").src = "https://lovins2.github.io/clickergame/click.html/poop.WEBP"; // 실패 이미지
+    document.getElementById("gaonImage").src = "poop.webp"; // 실패 이미지
     document.getElementById("story").innerText = "가온이가 프로젝트 도전을 포기했어...";
     document.getElementById("resetButton").style.display = "block";
     isGameEnded = true; // 게임 종료 상태로 설정
@@ -115,7 +115,7 @@ function showFinalStage() {
     document.getElementById("story").innerText = "가온이가 코딩의 마스터가 됐어! 이제 가온이는 대기업에서 캐스팅해갈거야!";
 
     // 버튼 이미지 변경
-    document.getElementById("gaonImage").src = "https://lovins2.github.io/clickergame/click.html/last_image.png"; // 성공 이미지
+    document.getElementById("gaonImage").src = "last_image.png"; // 성공 이미지
     document.getElementById("resetButton").style.display = "block"; // 초기화 버튼 표시
     isGameEnded = true; // 게임 종료 상태로 설정
 }
