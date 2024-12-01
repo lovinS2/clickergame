@@ -1,0 +1,28 @@
+.h1 {
+    text-align: center;
+}
+
+.div {
+    width: 100%;
+}
+
+.main_screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin-top: 15px; /* 버튼 간의 여백 */
+}
+
+.end_text {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: red;
+}
+
+/* .screen_button {
+    
+} */
