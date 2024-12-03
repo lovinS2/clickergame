@@ -4,7 +4,7 @@ let isDoubleClickActive = false;
 let isAutoClickActive = false;
 let isGameEnded = false; 
 const stages = ["노베이스", "입문", "초심자", "하수", "초보", "중수", "고수", "마스터"];
-const images = ["gaon.png", "https://github.com/lovinS2/clickergame/blob/main/js.png?raw=true", "./main/js.png", "c.png", "ja.png", "luby.png", "umm.png", "php.png"];
+const images = ["gaon.png", , "https://github.com/lovinS2/clickergame/blob/main/js.png?raw=true", "c.png", "ja.png", "luby.png", "umm.png", "php.png"];
 const stories = [
     "가온이가 코딩을 배우기 시작했어!",
     "가온이가 변수와 자료형을 배웠어!",
